@@ -104,6 +104,7 @@ h1 {
 }
 .main {
   margin-top: 4.5em;
+  text-align: center;
   .home {
     color: black;
     background-image: url("https://umad.com/img/2016/10/japan-flowers-desktop-wallpaper-12433-12878-hd-wallpapers.jpg");
@@ -119,15 +120,11 @@ h1 {
     h1 {
       font-size: 4em;
       color: white;
-      text-align: center;
     }
   }
   .about {
     background-color: #bdd0f2;
     display: block;
-    h1 {
-      text-align: center;
-    }
     .about-row{
       display: block;
       width: 100%;
@@ -163,9 +160,6 @@ h1 {
   }
   .gallery {
     background-color: #7fa7e3;
-    h1 {
-      text-align: center;
-    }
     @media (max-width: 1400px) {
         p {
           font-size: 1.3em;
@@ -196,7 +190,6 @@ h1 {
           padding: 0;
           width: 100%;
           transform: translateY(.5%);
-          text-align: center;
         }
       }
       .hide {
@@ -231,10 +224,6 @@ h1 {
   .contact {
     background-color: #3f81d1;
     display: block;
-    h1 {
-      font-family: 'Cabin Sketch', cursive;
-      text-align: center;
-    }
     .contact-block {
       max-width: 80%;
       height: auto;
