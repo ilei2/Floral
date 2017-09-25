@@ -4,14 +4,214 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
     <title>MP1 Starter</title>
 </head>
 
 <body>
 
-    <h2>Welcome to MP1!</h2>
+    <div class="navbar">
+      <div class="navbar-link">
+        <a id="home-id" href="#home-id" class="nav-home highlight">HOME</a>
+      </div>
+      <div class="navbar-link">
+        <a id="about-id" href="#about-id" class="nav-about">ABOUT</a>
+      </div>
+      <div class="navbar-link">
+        <a id="gallery-id" href="#gallery-id" class="nav-gallery">GALLERY</a>
+      </div>
+      <div class="navbar-link">
+        <a id="contact-id" href="#contact-id" class="nav-contact">CONTACT</a>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="home block">
+          <h1>FLOWERS</h1>
+      </div>
+
+    <div id="#about-id" class="about block">
+      <h1>FAVORITES</h1>
+      <div class="about-row">
+        <a href="#sunflower">
+          <img src="assets/yellow.jpg"></a>
+        <a href="#rose">
+            <img src="assets/pale-rose.jpg"></a>
+        <a href="#iris"><img src="assets/iris.jpg"</a>
+      </div>
+      <div class="about-row">
+        <a href="#cape"><img src="assets/cape.jpg"></a>
+        <a href="#poppy"><img src="assets/poppy.jpg"></a>
+        <a href="#lily"><img src="assets/lily.jpg"></a>
+      </div>
+      <div class="about-row">
+        <a href="#gerbera"><img src="assets/gerbera.jpg"></a>
+        <a href="#azalea"><img src="assets/azalea.jpg"></a>
+        <a href="#gordon-cooper"><img src="assets/gordon-cooper.jpg"></a>
+      </div>
+    </div>
+
+      <div id="#gallery-id" class="gallery block">
+        <h1>GALLERY</h1>
+        <div id="#gallery-text">
+          <p>Below are images of flowers that I was unable to identify.
+          These were taken in San Francisco, California.</p>
+        </div>
+        <div class="carouselbox">
+          <div class="buttons">
+            <button class="prev">
+              <span><b>&lt</b></span>
+            </button>
+            <button class="next">
+              <span><b>&gt</b></span>
+            </button>
+          </div>
+          <ol class="content">
+            <li><img src="assets/pale-orange.jpg"></li>
+            <li class="hide"><img src="assets/pink.jpg"></li>
+            <li class="hide"><img src="assets/red.jpg"></li>
+            <li class="hide"><img src="assets/pale-pink.jpg"></li>
+          </ol>
+        </div>
+      </div>
+
+      <div id="#contact-id" class="contact block">
+        <div class="contact-block">
+          <h1>Want More Information?</h1>
+          <p>If you want to know more about flowers or share interesting facts with
+            me, feel free to reach me at <i>ilei2@illinois.edu</i>!</p>
+          <p>Here is a cute video of a hummingbird and flowers :D</p>
+        </div>
+        <div class="contact-block">
+          <video width="350" height="500" controls>
+            <source src="assets/flower-vid.mp4" type="video/mp4">
+              Your browser does not support this video tag.
+          </video>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      <div class="footer-content">
+        <i class="fa fa-instagram fa-3x icon"></i>
+      </div>
+      <div class="footer-content">
+        <i class="fa fa-facebook-f fa-3x"></i>
+      </div>
+      <div class="footer-content">
+        <p>Made by Ivy Lei 2017, MP1</p>
+      </div>
+      <div class="footer-content">
+        <i class="fa fa-twitter fa-3x"></i>
+      </div>
+      <div class="footer-content">
+        <i class="fa fa-github fa-3x"></i>
+      </div>
+    </div>
+
+
+    <!-- MODAL STUFF -->
+    <div id="sunflower" class="modal-window">
+      <div>
+        <a href="#modal-close" title="Close" class="modal-close">Close</a>
+        <h1>Sunflowers</h1>
+        <div>Characterized by their bright yellow petals, sunflowers have been
+        admired for its sunny charm and beautiful disposition. Sunflower oil
+        is used for many purposes, from cooking to medicine to personal care.</div>
+        </div>
+    </div>
+    <div id="rose" class="modal-window">
+      <div>
+        <a href="#modal-close" title="Close" class="modal-close">Close</a>
+        <h1>Roses</h1>
+        <div>Rose plants range in size and shape and colors can range from
+         white, yellow, and red hues. They are widely known for their beauty and
+         fragrance. They are popular in culture and are often used a symbol of love.</div>
+        </div>
+    </div>
+    <div id="iris" class="modal-window">
+      <div>
+          <a href="#modal-close" title="Close" class="modal-close">Close</a>
+          <h1>Iris</h1>
+          <div>Iris is derived from the Greek word for rainbow. Its shape
+            was adapted on royal banners, such as the "Fleur de Lys". The Iris also
+            has medicinal properties and is often used for stomach problems.
+          </div>
+        </div>
+    </div>
+    <div id="poppy" class="modal-window">
+      <div>
+          <a href="#modal-close" title="Close" class="modal-close">Close</a>
+          <h1>Poppy</h1>
+          <div>Poppies are often used as a symbol for peace, sleep, and
+             death. Opium extracted from poppies are used as sedatives,
+             and red poppies are often used to remember those who have
+             died during wartime.
+          </div>
+        </div>
+    </div>
+    <div id="cape" class="modal-window">
+      <div>
+          <a href="#modal-close" title="Close" class="modal-close">Close</a>
+          <h1>Cape Town Blue</h1>
+          <div>A native species from South Africa, this blue daisy is a favorite
+            since it is low-maintenance and blooms all season. Since blue is an
+            unusual color to have in a garden, Cape Town Blue is definitely a
+            plant that will draw attention to the eye!
+          </div>
+        </div>
+    </div>
+    <div id="lily" class="modal-window">
+      <div>
+          <a href="#modal-close" title="Close" class="modal-close">Close</a>
+          <h1>Lily</h1>
+          <div>The flower is so revered by the ancient Greeks that they believed
+            that it sprouted from the milk of Hera, the queen of the Gods.
+            The colors of the lily symbolize different things: white represents
+            virtue, and other hues represent friendship, wealth, or prosperity.
+          </div>
+        </div>
+    </div>
+    <div id="gerbera" class="modal-window">
+      <div>
+          <a href="#modal-close" title="Close" class="modal-close">Close</a>
+          <h1>Gerbera Daisy</h1>
+          <div>Discovered in South Africa, Gerbera daisies come in vibrant colors,
+            including yellows, snow white, and ruby red hues. Gerberas are often
+            synonymous with bright and merry, and are a favorite choice for
+            birthdays, graduations, and congratulation events.
+          </div>
+        </div>
+    </div>
+    <div id="azalea" class="modal-window">
+      <div>
+          <a href="#modal-close" title="Close" class="modal-close">Close</a>
+          <h1>Azalea</h1>
+          <div>Azaleas are popular landscaping flowers, and are often used
+            in centerpieces and bouquets. The flower symbolizes a reminder
+            of the time spent at home.
+          </div>
+        </div>
+    </div>
+    <div id="gordon-cooper" class="modal-window">
+      <div>
+          <a href="#modal-close" title="Close" class="modal-close">Close</a>
+          <h1>Gordon Cooper</h1>
+          <div>Also known as rock rose, Gordon Coopers are recognizable by its
+            white petals with a deep maroon spot at the base of each petal. The
+            flower is drought-tolerant, making it a good choice to plant in
+            dry climates.
+            </thead>
+          </div>
+        </div>
+    </div>
+    <!-- END MODAL STUFF -->
 
     <script src="bundle.js" type="text/javascript"></script>
+
 </body>
 
 </html>
