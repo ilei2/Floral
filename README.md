@@ -1,8 +1,8 @@
 # Project: One Web Page
 ## Hosted on: https://floral-fan.herokuapp.com/
 ### This project is completed for an assignment in school.
-### Score Received: 96% 
-### (points taken off within best practices and smooth scrolling)
+### Score Received: 96% (points taken off within best practices and smooth scrolling)
+#### (Not mobile friendly)
 
 ## Table of Contents
 1. [Assignment](#assignment)
