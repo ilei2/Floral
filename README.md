@@ -1,4 +1,4 @@
-# Project: One Web Page To Rule Them All
+# Project: One Web Page
 ### This project is completed for an assignment in school.
 ### Score Received: 96% (points taken off within best practices section)
 
